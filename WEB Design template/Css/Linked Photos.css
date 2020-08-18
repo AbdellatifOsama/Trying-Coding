@@ -1,0 +1,107 @@
+.Services_info_container {
+  background-color: #333763;
+  position: sticky;
+  position: -webkit-sticky;
+  top: 20px;
+  border-radius: 10px;
+  /*border: 0.001px solid black;*/
+  box-shadow: 0 2px 20px 0 rgba(0, 0, 0, 0.35);
+  width: 275px;
+  margin: 5px 20px 20px 5px;
+  padding: 20px;
+  overflow: hidden;
+  float: left;
+}
+.Services_img {
+  position: relative;
+  width: 275px;
+}
+.Services_info_container_Description {
+  margin-left: 15px;
+  font-size: 21px;
+  color: whitesmoke;
+  text-transform: capitalize;
+}
+hr {
+  margin: 25px 20px;
+}
+.price {
+  color: white;
+  font-size: 30px;
+  font-weight: bolder;
+  text-align: center;
+}
+.offers_forms {
+  color: aliceblue;
+  font-size: 20px;
+  font-weight: 800;
+  margin: 0px 0px 0px 8px;
+}
+del {
+  color: gray;
+  opacity: 0.8;
+  font-size: 17px;
+}
+span {
+  color: red;
+  font-size: 18px;
+  font-weight: 800;
+}
+.Logo_contract {
+  position: relative;
+  left: 15px;
+  top: 5px;
+  font-size: 40px;
+  background-color: #880364;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: whitesmoke;
+  border: none;
+  margin: 10px;
+  padding: 15px 30px;
+}
+.text_container {
+  background-color: #d0e8f2;
+  border-radius: 10px;
+  width: 620px;
+  margin-top: 5px;
+  margin-right: 15px;
+  display: inline-block;
+  float: right;
+}
+h1 {
+  font-weight: 700;
+  font-size: 180%;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  margin: 20px;
+  text-transform: uppercase;
+  opacity: 0.6;
+}
+.text_container p {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  font-size: 120%;
+  /*text-transform: capitalize;*/
+  font-weight: 400;
+  margin: 20px 30px 30px;
+  opacity: 0.8;
+}
+.text_container ul li {
+  list-style-position: inside;
+  font-weight: 800;
+  font-size: 140%;
+  padding: 7px;
+  opacity: 0.8;
+}
+.Note {
+  margin-top: 15px;
+  font-size: 120%;
+  color: whitesmoke;
+  text-transform: capitalize;
+}
+.Packing_Notes {
+  margin: 15px;
+}
+.Packing_Notes li {
+  padding: 15px;
+  color: red;
+  opacity: 0.3;
+}

@@ -1,0 +1,35 @@
+<div class="header">
+      <img src="Images/Main Logo.png" alt="Our Logo" title="Tefa Designs" />
+      <div class="nav">
+        <ul>
+          <li>
+            <a class="active" href="#"><i class="fa fa-home fa-fw"></i> Home</a>
+          </li>
+          <li>
+            <a href="Html Pages/Skills.html"><i class="fa fa-cog fa-fw"></i>Skills</a>
+          </li>
+          <li>
+            <a href="#"><i class="fa fa-archive fa-fw"></i>Protofolio</a>
+          </li>
+          <li>
+            <a href="#"><i class="fa fa-book fa-fw"></i>Education</a>
+          </li>
+          <li>
+            <a href="#"><i class="fa fa-phone fa-fw"></i>Contact Us</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+
+
+
+
+
+
+.nav {
+  display: inline-block;
+  position: relative;
+  left: 110px;
+  bottom: 15px;
+}

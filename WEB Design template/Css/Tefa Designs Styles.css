@@ -1,0 +1,348 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+.header {
+  width: 100%;
+  background-color: #00053d;
+}
+a {
+  text-decoration: none;
+}
+/*
+.header img {
+  position: relative;
+  top: 5px;
+  left: 25px;
+}
+.nav {
+  display: inline-block;
+  position: relative;
+  left: 110px;
+  bottom: 34px;
+}*/
+.header img {
+  position: relative;
+  margin-top: -10px;
+  left: 25px;
+}
+.profile {
+  display: inline-block;
+  position: absolute;
+  top: 15px;
+  left: 920px;
+  font-size: 55px;
+  color: white;
+  opacity: 0.9;
+}
+.nav {
+  display: inline-block;
+  position: relative;
+  left: 110px;
+  bottom: 15px;
+}
+/**/
+.nav ul {
+  display: inline;
+}
+.nav ul li {
+  display: inline;
+}
+.nav ul li a {
+  color: whitesmoke;
+  padding: 15px;
+  font-size: 26px;
+  text-decoration: none;
+}
+.nav ul li a:hover {
+  color: #fcc021;
+  font-weight: bolder;
+  /*background-color: #494b67;*/
+  background-color: #303061;
+}
+.nav ul li a.active {
+  color: #fcc021;
+  font-weight: bolder;
+}
+.Services {
+  background-color: #00053d;
+  font-size: 35px;
+  color: whitesmoke;
+  font-weight: 900;
+  font-family: sans-serif;
+  text-align: center;
+  text-shadow: 1px 1px black;
+  letter-spacing: 2px;
+  padding: 25px;
+  opacity: 0.8;
+  margin: -4px 0px 0px 0px;
+}
+.photo_container {
+  display: inline-block;
+  position: relative;
+  width: 25%;
+  margin: 0px -4px -4px 0px;
+}
+.photo_container:hover .image {
+  opacity: 0.3;
+}
+.photo_container:hover .middle {
+  opacity: 1;
+}
+.image {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: 0.5s ease;
+  backface-visibility: hidden;
+}
+
+.middle {
+  background-color: #050b49;
+  color: white;
+  font-size: 20px;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 15px 30px;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+footer {
+  position: relative;
+  width: 100%;
+  background-color: #080e58;
+  opacity: 0.9;
+  clear: both;
+  height: 36px;
+}
+footer > p {
+  color: whitesmoke;
+  font-size: 15px;
+  position: absolute;
+  top: 25%;
+  left: 33%;
+  word-spacing: 3px;
+  letter-spacing: 1.6px;
+}
+footer div {
+  display: inline-block;
+  position: absolute;
+  margin: 6px 10px -4px;
+}
+.facebook_hover {
+  margin-right: 6px;
+  font-size: 23px;
+  color: white;
+}
+.facebook_hover i:hover {
+  color: #4867aa;
+}
+.instagram_hover {
+  font-size: 25px;
+  color: white;
+}
+.instagram_hover i:hover {
+  background: #d6249f;
+  background: radial-gradient(
+    circle at 30% 107%,
+    #fdf497 0%,
+    #fdf497 5%,
+    #fd5949 45%,
+    #d6249f 60%,
+    #285aeb 90%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.twitter_hover {
+  margin-right: 5px;
+  font-size: 23px;
+  color: white;
+}
+.twitter_hover i:hover {
+  color: #2aa9e0;
+}
+.Skills_Container {
+  background-color: #d0e8f2;
+  border-radius: 15px;
+  position: relative;
+  margin: 25px;
+  padding: 50px;
+  width: auto;
+  height: 200px;
+}
+.Skills_Header {
+  font-size: 50px;
+  color: #686c6f;
+  text-transform: capitalize;
+  position: absolute;
+  bottom: 112px;
+  font-weight: bolder;
+  line-height: 1.1em;
+  direction: ltr;
+}
+.Progress {
+  float: right;
+  position: absolute;
+  bottom: 23px;
+  right: 20px;
+  margin: 30px;
+}
+.Progress_head {
+  display: inline-block;
+  margin-top: 20px;
+  color: gray;
+  font-size: 25px;
+  font-weight: 600;
+}
+.Progress_container {
+  background-color: grey;
+  opacity: 0.8;
+  border-radius: 50px;
+  width: 400px;
+  height: 1.5em;
+}
+.Progress_bar {
+  background-color: #fcc021;
+  width: 75%;
+  height: 1.5em;
+  border-radius: 40px;
+}
+.Progress_bar_perecent {
+  margin: 1px;
+  line-height: 1em;
+  text-align: right;
+  color: rgb(110, 108, 108);
+  font-size: 25px;
+  font-weight: bold;
+}
+.Skills_Button {
+  background-color: #b8e5f8;
+  border-radius: 10px;
+  position: absolute;
+  bottom: 31px;
+  left: 14.5%;
+  padding: 10px;
+}
+.Skills_Button a {
+  color: black;
+  font-size: 20px;
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 20px;
+  padding: 10px;
+}
+.Main_About_Me {
+  margin: 10px;
+  background-color: #d0e8f2;
+  width: 94%;
+  border-radius: 10px;
+  padding: 20px;
+}
+.Main_About_Me_Pic {
+  width: 25%;
+  float: left;
+  margin: 20px;
+  margin-right: 40px;
+}
+.head_About_Me p:first-child {
+  margin: 21px 0px;
+  font-size: 30px;
+  color: #4b5557;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bolder;
+  text-transform: uppercase;
+}
+.head_About_Me p:nth-child(2) {
+  color: grey;
+  font-size: 15px;
+  font-family: monospace;
+  font-weight: bolder;
+  margin-right: 60px;
+  text-transform: capitalize;
+}
+.info_About_Me {
+  margin-top: 40px;
+}
+.info_About_Me div {
+  display: inline-block;
+  margin-right: 40px;
+  margin-bottom: 30px;
+  color: grey;
+  font-weight: 800;
+}
+.info_About_Me div h1 {
+  font-size: 28px;
+  font-weight: bolder;
+  letter-spacing: -2px;
+  word-spacing: 5px;
+}
+.info_About_Me div h1 i {
+  color: rgb(39, 165, 39);
+  letter-spacing: 5px;
+  margin-right: 7px;
+  opacity: 0.8;
+  font-size: 25px;
+}
+.Main_Education {
+  position: relative;
+  width: 94%;
+  background-color: #d0e8f2;
+  padding: 20px;
+  margin: 10px;
+  border-radius: 10px;
+  height: 500px;
+}
+.Education_Left {
+  float: left;
+  width: 50%;
+}
+.Education_Left p:first-child {
+  color: grey;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 30px;
+  font-weight: bolder;
+  margin: 20px 0px;
+}
+.Education_Left p:nth-child(2) {
+  color: grey;
+  font-size: 15px;
+  font-family: monospace;
+  font-weight: bolder;
+  margin-right: 60px;
+  text-transform: capitalize;
+}
+.Education_Right {
+  clear: both;
+  float: right;
+  width: 50%;
+  position: absolute;
+  left: 500px;
+  margin: 71px 10px 10px 0px;
+}
+.Education_Right p:first-child,
+.Education_Right p:nth-child(5) {
+  color: rgb(102, 100, 100);
+  font-size: 27px;
+  font-weight: bolder;
+  margin-bottom: 10px;
+  text-transform: capitalize;
+}
+.Education_Right p:nth-child(4),
+.Education_Right p:nth-child(8) {
+  color: grey;
+  font-family: monospace;
+  font-size: 18px;
+  font-weight: bolder;
+  margin-bottom: 15px;
+}
+.Green_div {
+  width: 50px;
+  background-color: #4ec29b;
+  opacity: 0.8;
+}
